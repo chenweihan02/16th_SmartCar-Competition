@@ -4,7 +4,7 @@ Ubuntu18.04 & ROS melodic
 
 
 
-#### 1. 将路径添加到source中
+### 1. 将路径添加到source中
 
 打开终端输入如下指令
 
@@ -27,7 +27,7 @@ source ~/.bashrc //使配置的环境变量生效
 
 
 
-#### 2. 安装move_base
+### 2. 安装move_base
 
 ```bash
 sudo apt install ros-melodic-navigation*
@@ -35,7 +35,7 @@ sudo apt install ros-melodic-navigation*
 
 
 
-#### 3. 安装teb_local_planner
+### 3. 安装teb_local_planner
 
 ```bash
 sudo apt-get install ros-melodic-teb-local-planner
@@ -43,7 +43,7 @@ sudo apt-get install ros-melodic-teb-local-planner
 
 
 
-#### 4.  运行模板程序
+### 4.  运行模板程序
 
 在gazebo_test_ws/src/start_game目录下，运行main.py 
 
